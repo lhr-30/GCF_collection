@@ -9,8 +9,8 @@ import pandas as pd
 # 1. CONFIGURATION
 # =========================
 
-CANDIDATES_FILE = "candidates.xlsx"
-FUNDED_PI_FILE = "funded_pis.xlsx"
+CANDIDATES_FILE = "tests/demo_candidates.xlsx"
+FUNDED_PI_FILE = "tests/demo_funded_pis.xlsx"
 OUTPUT_DIR = "reports"
 CSV_ENCODING = "utf-8-sig"
 

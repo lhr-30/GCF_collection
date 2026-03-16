@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local data files (personal information)
+candidates.csv
+candidates.xlsx
+funded_pis.csv
+funded_pis.xlsx
+reports/
