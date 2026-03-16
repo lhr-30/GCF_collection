@@ -104,6 +104,7 @@ def canonical_pi_name(text) -> str:
     )
     s = re.sub(r"\bprof(?:essor)?\b", " ", s)
     s = re.sub(r"\bdr\b", " ", s)
+    s = re.sub(r"\b(mr|mrs|ms|miss|madam)\b", " ", s)
 
     # Remove punctuation but keep letters/numbers/spaces/hyphen
     s = re.sub(r"[^a-z0-9\s\-]", " ", s)
